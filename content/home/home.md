@@ -1,0 +1,191 @@
++++
+title =  "Home"
+type = "home"
+draft = false
++++
+
+{{< showcase-section
+    title="조용한 위로가 필요한 순간,<br>삶의 의미를 다시 찾고 싶은 날."
+    subtitle="아이하나 교회 (Ihana Church)"
+    buttonText="조용한 위로와 회복의 자리로 초대합니다"
+    buttonUrl="#worship"
+    description="당신을 위한 회복의 자리가 이곳에 마련되어 있습니다. 하나님의 사랑이 숨쉬는 곳, 아이하나교회에서 당신과 함께 예배하길 원합니다."
+    imgSrc="images/showcase/showcase.png"
+    imgScale="0.5"
+ >}}
+{{< /showcase-section >}}
+
+{{< about-section
+    title="교회 소개 (About Us)"
+    content="<strong>해외한인장로회(KPCA) 소속</strong><br><br>아이하나 교회는 2024년 설립되어 최세나 담임목사와 함께 조용한 위로와 회복을 나누는 공동체입니다. 말씀을 기억하며 우리의 아픔과 상처를 치유하는 예배의 자리로 여러분을 초대합니다.<br><br><strong>교회 이름의 의미 (요한복음 17:11)</strong><br><em>“거룩하신 아버지여, 아버지께서 내게 주신 아버지의 이름으로 그들을 지켜 주셔서 우리가 하나인 것같이 그들도 하나가 되게 하소서”</em><br>이 말씀처럼, 예수 그리스도 안에서 '아버지의 이름으로 온전히 하나 되는 교회'를 지향합니다.<br><br><strong>핵심 가치</strong><br>1. 말씀을 기억하며 나아가는 삶<br>2. 슬픔과 상처의 온전한 치유와 회복<br>3. 아버지의 이름 안에서 이루는 아름다운 하나 됨"
+    imgSrc="images/about/about-church.png"
+    imgScale="0.5"
+    v_align="center"
+    h_align="left"
+ >}}
+
+{{< text-section title="예배 안내 (Worship Guide)" sectionId="worship" >}}
+<div class="alert alert-info py-3" role="alert" style="background-color: #E8F0F8; border-color: #D2E4F1; color: #3A6280; border-radius: 8px;">
+※ 교회 사정에 따라 예배 시간이 변경될 수 있으니 방문 전 확인 부탁드립니다.
+</div>
+<div class="table-responsive mt-4">
+<table class="table table-bordered table-hover align-middle">
+<thead class="table-light" style="background-color: #F0F4F8;">
+<tr>
+<th scope="col" style="width: 30%;">예배 분류</th>
+<th scope="col" style="width: 35%;">시간</th>
+<th scope="col" style="width: 35%;">장소/대상</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>주일 예배 (1부)</strong></td>
+<td>오전 9시 30분</td>
+<td>본당 (#203)</td>
+</tr>
+<tr>
+<td><strong>주일 예배 (2부)</strong></td>
+<td>오전 11시 30분</td>
+<td>본당 (#203)</td>
+</tr>
+<tr>
+<td><strong>차세대 예배</strong></td>
+<td>오전 11시 30분</td>
+<td>교육관</td>
+</tr>
+<tr>
+<td><strong>아침 기도회</strong></td>
+<td>오전 6시 00분</td>
+<td>본당</td>
+</tr>
+<tr>
+<td><strong>금요 예배</strong></td>
+<td>저녁 7시 30분</td>
+<td>본당</td>
+</tr>
+</tbody>
+</table>
+</div>
+{{< /text-section >}}
+
+{{< text-section title="설교/말씀 (Sermon)" sectionId="sermon" >}}
+<p class="text-muted mb-4">"매주 선포되는 생명의 말씀을 통해 삶의 상처가 치유되고 하늘의 위로가 임하기를 소망합니다."</p>
+<div class="row g-4">
+<div class="col-12 col-md-6 col-lg-4">
+<div class="card h-100 shadow-sm border-0" style="border-radius: 10px; overflow: hidden; border: 1px solid #E8F0F8;">
+<div class="ratio ratio-16x9">
+<iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="card-body bg-white">
+<h5 class="card-title text-dark">주일 예배 설교</h5>
+<p class="card-text text-muted small">말씀을 기억하는 삶을 위한 고찰</p>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+<div class="card h-100 shadow-sm border-0" style="border-radius: 10px; overflow: hidden; border: 1px solid #E8F0F8;">
+<div class="ratio ratio-16x9">
+<iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="card-body bg-white">
+<h5 class="card-title text-dark">상처와 아픔의 치유</h5>
+<p class="card-text text-muted small">슬픔 가운데 임하는 위로와 하나님의 사랑</p>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+<div class="card h-100 shadow-sm border-0" style="border-radius: 10px; overflow: hidden; border: 1px solid #E8F0F8;">
+<div class="ratio ratio-16x9">
+<iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="card-body bg-white">
+<h5 class="card-title text-dark">하나되는 교회</h5>
+<p class="card-text text-muted small">요한복음 17:11 강해 및 하나됨의 가치</p>
+</div>
+</div>
+</div>
+</div>
+{{< /text-section >}}
+
+{{< text-section title="오시는 길 (Location)" sectionId="location" >}}
+<div class="row align-items-center">
+<div class="col-12 col-lg-6 mb-4 mb-lg-0">
+<div class="ratio ratio-4x3 rounded shadow-sm overflow-hidden" style="border: 1px solid #D2E4F1;">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3018.6657276722883!2d-73.9723223!3d40.8572186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f6f4c87158a1%3A0xe5108034dbf77b7d!2s570%20Main%20St%20%23203%2C%20Fort%20Lee%2C%20NJ%2007024!5e0!3m2!1sko!2sus!4v1700000000000!5m2!1sko!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</div>
+<div class="col-12 col-lg-6 ps-lg-4">
+<h4 class="mb-3 text-primary">교회 주소</h4>
+<p class="lead mb-4"><strong>570 Main street #203, Fort Lee, NJ 07024</strong></p>
+<div class="mb-4">
+<h5 class="text-success" style="color: #4A7C59 !important;"><i class="icon-gauge mr-2"></i> 자가용 이용 시</h5>
+<p class="text-muted">Main Street 상가 내 주차 공간 또는 인근 공용 주차장을 편리하게 이용하실 수 있습니다.</p>
+</div>
+<div>
+<h5 class="text-success" style="color: #4A7C59 !important;"><i class="icon-globe mr-2"></i> 대중교통 이용 시</h5>
+<p class="text-muted">조지 워싱턴 브릿지(GWB) 버스 터미널에서 포트리 방향 버스 탑승 후 <strong>Main St 정류장</strong>에서 하차하시면 도보 2분 거리에 있습니다.</p>
+</div>
+</div>
+</div>
+{{< /text-section >}}
+
+{{< text-section title="헌금 안내 (Giving)" sectionId="giving" centered="true" >}}
+<div class="card border-0 p-5 mx-auto text-center" style="max-width: 600px; border-radius: 15px; background-color: #F4F8FB; border: 1px solid #E8F0F8;">
+<p class="mb-4 text-secondary">"기쁨과 감사로 드리는 예물은 하나님의 나라를 확장하고 지역사회의 슬픔을 치유하는 일에 투명하게 사용됩니다."</p>
+<div class="border-top pt-4">
+<h5 class="text-muted mb-2">온라인 헌금 안내 (Zelle)</h5>
+<h3 class="text-primary font-monospace select-all" style="font-weight: 700; font-size: 1.8rem; color: #3A6280 !important;"><strong>ihanachurch2024@gmail.com</strong></h3>
+<p class="text-muted small mt-2">※ 그 외 은행 계좌 정보는 추후 추가 예정입니다.</p>
+</div>
+</div>
+{{< /text-section >}}
+
+{{< text-section title="기도 요청 (Prayer Request)" sectionId="prayer" >}}
+<div class="card border-0 shadow-sm p-4 mx-auto" style="max-width: 700px; border-radius: 12px; border: 1px solid #E8F0F8;">
+<p class="text-muted mb-4">"혼자서 감당하기 어려운 슬픔과 기도의 제목이 있으신가요? 최세나 담임목사님이 성도님의 기도제목을 직접 읽고 마음을 다해 함께 기도합니다. 모든 내용은 철저히 비밀이 보장됩니다."</p>
+<form action="https://formspree.io/f/placeholder" method="POST">
+<div class="row g-3">
+<div class="col-md-6">
+<label for="prayer-name" class="form-label text-dark">이름</label>
+<input type="text" class="form-control" id="prayer-name" name="name" placeholder="익명 가능" required style="border: 1px solid #D2E4F1; border-radius: 6px;">
+</div>
+<div class="col-md-6">
+<label for="prayer-contact" class="form-label text-dark">연락처 / 이메일</label>
+<input type="text" class="form-control" id="prayer-contact" name="contact" placeholder="선택 사항" style="border: 1px solid #D2E4F1; border-radius: 6px;">
+</div>
+<div class="col-12">
+<label for="prayer-content" class="form-label text-dark">기도 제목</label>
+<textarea class="form-control" id="prayer-content" name="prayer" rows="4" placeholder="성도님의 마음의 짐과 기도의 제목을 적어주세요. 목사님만 열람합니다." required style="border: 1px solid #D2E4F1; border-radius: 6px;"></textarea>
+</div>
+<div class="col-12 text-center mt-4">
+<button type="submit" class="btn btn-primary px-4 py-2" style="background-color: #4A7C59; border-color: #4A7C59; border-radius: 20px;">비공개로 기도 요청하기</button>
+</div>
+</div>
+</form>
+</div>
+{{< /text-section >}}
+
+{{< text-section title="문의하기 (Contact)" sectionId="contact" >}}
+<div class="card border-0 shadow-sm p-4 mx-auto bg-light" style="max-width: 700px; border-radius: 12px; border: 1px solid #E8F0F8;">
+<p class="text-muted mb-4">"기도가 필요하시거나 상담을 원하시면 언제든 편하게 연락해 주세요. 조용히 경청하겠습니다."</p>
+<form action="https://formspree.io/f/placeholder" method="POST">
+<div class="row g-3">
+<div class="col-md-6">
+<label for="contact-name" class="form-label text-dark">성함</label>
+<input type="text" class="form-control" id="contact-name" name="name" required style="border: 1px solid #D2E4F1; border-radius: 6px;">
+</div>
+<div class="col-md-6">
+<label for="contact-email" class="form-label text-dark">이메일</label>
+<input type="email" class="form-control" id="contact-email" name="email" required style="border: 1px solid #D2E4F1; border-radius: 6px;">
+</div>
+<div class="col-12">
+<label for="contact-message" class="form-label text-dark">문의 내용</label>
+<textarea class="form-control" id="contact-message" name="message" rows="4" placeholder="무엇이든 자유롭게 문의해 주세요." required style="border: 1px solid #D2E4F1; border-radius: 6px;"></textarea>
+</div>
+<div class="col-12 text-center mt-4">
+<button type="submit" class="btn btn-success px-4 py-2" style="background-color: #3A6280; border-color: #3A6280; border-radius: 20px; color: #fff;">문의 보내기</button>
+</div>
+</div>
+</form>
+</div>
+{{< /text-section >}}
