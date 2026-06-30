@@ -122,10 +122,7 @@ sections = [
   "showcase",
   "about",
   "worship",
-  "sermon",
-  "location",
-  "giving",
-  "contact"
+  "location"
 ]
 # If you want to display an image logo in the header, you can add it here
 # logo = '/img/hugo.svg'
@@ -196,31 +193,31 @@ URL = "/"
 weight = 1
 [[languages.ko.menus.header]]
 name = '교회 소개'
-URL = '#about'
+URL = '/about/'
 weight = 2
 [[languages.ko.menus.header]]
 name = '예배 안내'
-URL = '#worship'
+URL = '/worship/'
 weight = 3
 [[languages.ko.menus.header]]
 name = '설교/말씀'
-URL = '#sermon'
+URL = '/sermons/'
 weight = 4
 [[languages.ko.menus.header]]
 name = '오시는 길'
-URL = '#location'
+URL = '/location/'
 weight = 5
 [[languages.ko.menus.header]]
 name = '헌금 안내'
-URL = '#giving'
+URL = '/giving/'
 weight = 6
 [[languages.ko.menus.header]]
 name = '기도 요청'
-URL = '#prayer'
+URL = '/prayer/'
 weight = 7
 [[languages.ko.menus.header]]
 name = '문의하기'
-URL = '#contact'
+URL = '/contact/'
 weight = 8
 
 [[languages.ko.menus.footer]]
@@ -229,15 +226,15 @@ URL = "/"
 weight = 1
 [[languages.ko.menus.footer]]
 name = "교회 소개"
-URL = "#about"
+URL = "/about/"
 weight = 2
 [[languages.ko.menus.footer]]
 name = "예배 안내"
-URL = "#worship"
+URL = "/worship/"
 weight = 3
 [[languages.ko.menus.footer]]
 name = "오시는 길"
-URL = "#location"
+URL = "/location/"
 weight = 4
 
 [languages.en]

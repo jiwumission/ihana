@@ -1,7 +1,7 @@
 +++
 title =  "Home"
-type = "home"
-draft = false
+type = "disabled-home"
+draft = true
 +++
 
 {{< showcase-section
