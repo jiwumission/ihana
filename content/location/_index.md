@@ -12,7 +12,7 @@ layout: "simple"
 <h3 class="text-xl font-bold text-slate-800 dark:text-neutral-100 mt-1">570 Main street #203, Fort Lee, NJ 07024</h3>
 </div>
 <div>
-<a href="https://maps.google.com/?q=570+Main+street+%23203,+Fort+Lee,+NJ+07024" target="_blank" rel="noopener noreferrer" class="inline-block px-5 py-2.5 text-sm font-semibold text-white bg-sky-500 hover:bg-sky-600 rounded-xl shadow-sm transition-transform hover:-translate-y-0.5 whitespace-nowrap">
+<a href="https://www.google.com/maps/dir/?api=1&origin=My+Location&destination=570+Main+street+%23203,+Fort+Lee,+NJ+07024" target="_blank" rel="noopener noreferrer" class="inline-block px-5 py-2.5 text-sm font-semibold text-white bg-sky-500 hover:bg-sky-600 rounded-xl shadow-sm transition-transform hover:-translate-y-0.5 whitespace-nowrap">
 구글 맵에서 열기 &rarr;
 </a>
 </div>
@@ -21,6 +21,7 @@ layout: "simple"
 <!-- 지도 임베드 -->
 <div class="mb-12 overflow-hidden rounded-3xl border border-slate-100 dark:border-neutral-700 shadow-sm aspect-video">
 <iframe 
+id="location-map"
 src="https://maps.google.com/maps?q=570%20Main%20street%20%23203,%20Fort%20Lee%2C%20NJ%2007024&t=&z=16&ie=UTF8&iwloc=&output=embed" 
 width="100%" 
 height="100%" 
@@ -54,3 +55,23 @@ Main Street 상가 내 주차 공간을 이용하시거나, 자리가 부족한 
 </div>
 </div>
 </div>
+
+<script>
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(
+      function(position) {
+        var lat = position.coords.latitude;
+        var lng = position.coords.longitude;
+        var mapIframe = document.getElementById('location-map');
+        if (mapIframe) {
+          // 출발지(saddr)를 위경도로, 도착지(daddr)를 교회 주소로 설정하여 길찾기 경로가 나오도록 임베드 변경
+          mapIframe.src = "https://maps.google.com/maps?saddr=" + lat + "," + lng + "&daddr=570%20Main%20street%20%23203,%20Fort%20Lee%2C%20NJ%2007024&t=&z=14&ie=UTF8&iwloc=&output=embed";
+        }
+      },
+      function(error) {
+        console.log("위치 정보를 가져오지 못해 기본 지도를 표시합니다: ", error.message);
+      }
+    );
+  }
+</script>
+

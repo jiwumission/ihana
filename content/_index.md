@@ -1,62 +1,85 @@
 ---
 title: "아이하나 교회"
-layout: "simple"
+type: "home"
 ---
 
-<div class="py-12 px-6 text-center max-w-4xl mx-auto">
-  <h1 class="text-4xl sm:text-5xl font-serif text-slate-800 leading-tight mb-6">
-    조용한 위로가 필요한 순간,<br class="hidden sm:inline"> 삶의 의미를 다시 찾고 싶은 날.
-  </h1>
-  <p class="text-lg text-slate-600 font-sans leading-relaxed mb-8 max-w-2xl mx-auto">
-    당신을 위한 회복의 자리가 이곳에 마련되어 있습니다.<br class="hidden sm:inline">
-    하나님의 사랑이 숨쉬는 곳, 아이하나교회에서 당신과 함께 예배하길 원합니다.
-  </p>
-  <div class="mb-16">
-    <a href="/worship/" class="inline-block px-8 py-4 bg-sky-500 hover:bg-sky-600 text-white font-sans font-semibold rounded-full shadow-lg transition-transform transform hover:-translate-y-0.5 duration-200">
-      조용한 위로와 회복의 자리로 초대합니다
-    </a>
-  </div>
-
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left max-w-3xl mx-auto">
-    <!-- 예배 시간 카드 -->
-    <div class="bg-white dark:bg-neutral-800 p-8 rounded-2xl shadow-sm border border-slate-100 dark:border-neutral-700 hover:shadow-md transition-shadow duration-300">
-      <h3 class="text-xl font-serif font-bold text-slate-800 dark:text-neutral-100 mb-4 flex items-center gap-2">
-        ⛪ 이번 주 주일 예배
-      </h3>
-      <ul class="text-slate-600 dark:text-neutral-300 font-sans space-y-2">
-        <li class="flex justify-between border-b border-slate-50 dark:border-neutral-700 pb-2">
-          <span>주일 1부 예배</span>
-          <span class="font-semibold text-slate-700 dark:text-neutral-200">오전 9:30</span>
-        </li>
-        <li class="flex justify-between border-b border-slate-50 dark:border-neutral-700 pb-2">
-          <span>주일 2부 예배</span>
-          <span class="font-semibold text-slate-700 dark:text-neutral-200">오전 11:30</span>
-        </li>
-        <li class="flex justify-between">
-          <span>차세대 예배</span>
-          <span class="font-semibold text-slate-700 dark:text-neutral-200">오전 11:30</span>
-        </li>
-      </ul>
-      <a href="/worship/" class="inline-block mt-6 text-sm font-semibold text-sky-500 hover:text-sky-600">
-        전체 예배 시간 확인하기 &rarr;
-      </a>
-    </div>
-
-    <!-- 오시는 길 카드 -->
-    <div class="bg-white dark:bg-neutral-800 p-8 rounded-2xl shadow-sm border border-slate-100 dark:border-neutral-700 hover:shadow-md transition-shadow duration-300">
-      <h3 class="text-xl font-serif font-bold text-slate-800 dark:text-neutral-100 mb-4 flex items-center gap-2">
-        📍 오시는 길
-      </h3>
-      <p class="text-slate-600 dark:text-neutral-300 font-sans leading-relaxed mb-4">
-        570 Main street #203, Fort Lee, NJ 07024
-      </p>
-      <p class="text-xs text-slate-500 dark:text-neutral-400 font-sans leading-relaxed">
-        * 메인 스트리트 상가 내 주차 가능<br>
-        * 조지 워싱턴 브릿지 버스 정류장 도보 2분
-      </p>
-      <a href="/location/" class="inline-block mt-6 text-sm font-semibold text-emerald-600 hover:text-emerald-700">
-        자세한 주차 및 대중교통 안내 &rarr;
-      </a>
-    </div>
-  </div>
+<section class="hero-banner mb-5 text-center">
+<div class="container py-4">
+<h1 class="display-4 font-serif text-dark mb-4 leading-tight" style="font-weight: 700;">
+조용한 위로가 필요한 순간,<br class="d-none d-sm-inline"> 삶의 의미를 다시 찾고 싶은 날.
+</h1>
+<p class="lead text-secondary max-w-2xl mx-auto mb-5">
+당신을 위한 회복의 자리가 이곳에 마련되어 있습니다.<br class="d-none d-sm-inline">
+하나님의 사랑이 숨쉬는 곳, 아이하나교회에서 당신과 함께 예배하길 원합니다.
+</p>
+<a href="/worship/" class="btn btn-primary btn-lg rounded-pill px-5 py-3 shadow-sm hover-up">
+조용한 위로와 회복의 자리로 초대합니다
+</a>
 </div>
+</section>
+
+<section class="content-cards py-4 mb-5">
+<div class="container">
+<div class="row g-4 justify-content-center">
+
+<!-- 예배 시간 안내 카드 -->
+<div class="col-12 col-md-6 col-lg-5">
+<div class="card h-100 border-0 shadow-sm p-4 info-card">
+<div class="card-body d-flex flex-column">
+<h3 class="card-title font-serif font-bold text-dark mb-4 d-flex align-items-center gap-2">
+⛪ 예배 시간 안내
+</h3>
+<ul class="list-unstyled flex-grow-1 mb-4">
+<li class="d-flex justify-content-between border-bottom py-2">
+<span class="text-secondary">주일 1부 예배</span>
+<span class="fw-bold text-dark">오전 9:30</span>
+</li>
+<li class="d-flex justify-content-between border-bottom py-2">
+<span class="text-secondary">주일 2부 예배</span>
+<span class="fw-bold text-dark">오전 11:30</span>
+</li>
+<li class="d-flex justify-content-between py-2">
+<span class="text-secondary">차세대 예배</span>
+<span class="fw-bold text-dark">오전 11:30</span>
+</li>
+</ul>
+<div class="mt-auto">
+<a href="/worship/" class="btn btn-outline-primary w-100 rounded-pill">
+전체 예배 시간 확인하기 &rarr;
+</a>
+</div>
+</div>
+</div>
+</div>
+
+<!-- 오시는 길 카드 -->
+<div class="col-12 col-md-6 col-lg-5">
+<div class="card h-100 border-0 shadow-sm p-4 info-card">
+<div class="card-body d-flex flex-column">
+<h3 class="card-title font-serif font-bold text-dark mb-4 d-flex align-items-center gap-2">
+📍 오시는 길
+</h3>
+<p class="text-secondary mb-2 fw-semibold">
+570 Main street #203, Fort Lee, NJ 07024
+</p>
+<div class="ratio ratio-21x9 mb-3 rounded overflow-hidden shadow-sm" style="border: 1px solid #D2E4F1;">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3018.6657276722883!2d-73.9723223!3d40.8572186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f6f4c87158a1%3A0xe5108034dbf77b7d!2s570%20Main%20St%20%23203%2C%20Fort%20Lee%2C%20NJ%2007024!5e0!3m2!1sko!2sus!4v1700000000000!5m2!1sko!2sus" width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<p class="text-muted small mb-4">
+* 메인 스트리트 상가 내 주차 가능<br>
+* 조지 워싱턴 브릿지 버스 정류장 도보 2분
+</p>
+<div class="mt-auto">
+<a href="/location/" class="btn btn-outline-success w-100 rounded-pill">
+자세한 교통 및 주차 안내 &rarr;
+</a>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+

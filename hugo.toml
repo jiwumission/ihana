@@ -93,6 +93,7 @@ title = '아이하나 교회 | 뉴저지 포트리 · 조용한 위로와 회복
 description = '뉴저지 포트리(Fort Lee)에 위치한 해외한인장로회(KPCA) 소속 아이하나 교회입니다. 말씀을 기억하며 슬픔과 상처를 치유하는 예배의 자리로 당신을 초대합니다.'
 images = ['/img/og-img.png']
 themeColor = '#E8F0F8'
+logo = '/img/logo.svg'
 
 # Color scheme: default | ocean | forest | rose | slate | midnight | warm
 colorScheme = 'default'

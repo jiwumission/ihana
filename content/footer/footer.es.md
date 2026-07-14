@@ -5,23 +5,6 @@ draft = false
 +++
 
 
-{{< contact-section
-    sectionId="contacto"
-    title="Contáctame" 
-    contact_form_name="Tu nombre"
-    contact_form_email="Tu correo"
-    contact_form_message="Tu mensaje"
-    contact_button="Enviar mensaje"
-    contact_phone_title="Mi teléfono"
-    contact_phone_number="<a href='tel:+555666777'>555 666 777</a>"
-    contact_email_title="Mi correo"
-    contact_email_email="demo@demosite.com"
-    contact_address_title="Mi ubicación"
-    contact_address_address="🇩🇰 Denmark"
-    form_action="https://formspree.io/f/mail@example.com"
-    form_method="POST"
->}}
-
 {{< newsletter-section 
     newsletter_title="Subscríbete"
     newsletter_placeholder="Tu correo"

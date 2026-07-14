@@ -1,0 +1,31 @@
+<svg viewBox="0 0 400 400" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer circle -->
+  <circle cx="200" cy="200" r="180" fill="none" stroke="#2c3e50" stroke-width="12" />
+
+  <!-- Paths for text alignment -->
+  <path id="arc-hana" d="M 100,165 A 110,110 0 0,1 300,165" fill="none" />
+  <path id="arc-church" d="M 70,215 A 145,145 0 0,1 330,215" fill="none" />
+
+  <!-- Text elements -->
+  <text x="200" y="95" font-family="'Noto Sans KR', 'Noto Sans', sans-serif" font-weight="900" font-size="52" text-anchor="middle" fill="#2c3e50">I</text>
+  
+  <text font-family="'Noto Sans KR', 'Noto Sans', sans-serif" font-weight="700" font-size="28" fill="#2c3e50" letter-spacing="4">
+    <textPath href="#arc-hana" startOffset="50%" text-anchor="middle">HANA</textPath>
+  </text>
+  
+  <text font-family="'Noto Sans KR', 'Noto Sans', sans-serif" font-weight="900" font-size="42" fill="#2c3e50">
+    <textPath href="#arc-church" startOffset="50%" text-anchor="middle">Church</textPath>
+  </text>
+
+  <!-- Church Roof with cross and small chimney -->
+  <g fill="none" stroke="#2c3e50" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Roof path with a chimney at x=130 -->
+    <path d="M 80,310 L 130,285 L 130,270 L 140,270 L 140,280 L 200,250 L 320,310" />
+    
+    <!-- Vertical line of the cross -->
+    <path d="M 200,250 L 200,160" />
+    
+    <!-- Horizontal line of the cross -->
+    <path d="M 165,190 L 235,190" />
+  </g>
+</svg>

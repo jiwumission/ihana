@@ -118,6 +118,15 @@ h1, h2, h3, h4, h5, h6,
   background-color: rgba(245, 249, 252, 0.9) !important;
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(58, 98, 128, 0.1);
+  z-index: 1050 !important; /* 본문 요소가 헤더 위로 튀어나오는 것 방지 */
+}
+
+/* Navbar background for dark mode */
+[data-bs-theme="dark"] .navbar,
+.dark-theme .navbar,
+body.dark .navbar {
+  background-color: rgba(26, 37, 47, 0.95) !important; /* 짙은 남색/차콜 어두운 배경 */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .navbar-brand, .nav-link {
@@ -144,3 +153,118 @@ footer a {
 footer a:hover {
   color: #ffffff !important;
 }
+
+/* --- Homepage Custom Layout & Elements --- */
+
+/* Reset home-container to support full-width background colors */
+.home-container {
+  max-width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  width: 100% !important;
+}
+
+/* Solid background for Hero Banner */
+.hero-banner {
+  background-color: #e8f0f8 !important; /* Calming Pastel Baby Blue */
+  padding-top: 240px !important; /* 메뉴바 및 오프셋 간격 확보를 위해 상단 여백 대폭 확대 */
+  padding-bottom: 100px;
+  border-bottom: 1px solid rgba(58, 98, 128, 0.08);
+  position: relative;
+  z-index: 1; /* 헤더보다 뒤에 렌더링되도록 함 */
+}
+
+.hero-banner h1 {
+  font-size: 2.8rem;
+  line-height: 1.4;
+  color: #2c3e50;
+  letter-spacing: -0.5px;
+}
+
+.hero-banner p {
+  color: #57606f !important;
+  font-size: 1.15rem;
+}
+
+/* Info Cards on Homepage */
+.info-card {
+  border-radius: 16px !important;
+  background-color: #ffffff !important;
+  box-shadow: 0 8px 30px rgba(58, 98, 128, 0.04) !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid rgba(58, 98, 128, 0.05) !important;
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(58, 98, 128, 0.08) !important;
+}
+
+/* Button & Link Hover Animations */
+.hover-up {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hover-up:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(58, 98, 128, 0.15) !important;
+}
+
+.btn-outline-primary {
+  color: #3A6280 !important;
+  border-color: #3A6280 !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: #3A6280 !important;
+  color: #ffffff !important;
+}
+
+.btn-outline-success {
+  color: #4A7C59 !important;
+  border-color: #4A7C59 !important;
+}
+
+.btn-outline-success:hover {
+  background-color: #4A7C59 !important;
+  color: #ffffff !important;
+}
+
+/* Navbar brand logo sizing and alignment */
+.navbar-brand .logo {
+  height: 48px !important;
+  width: auto !important;
+  max-height: 48px !important;
+  display: inline-block;
+  vertical-align: middle;
+  transition: filter 0.3s ease;
+}
+
+/* Invert logo color for dark mode */
+[data-bs-theme="dark"] .navbar-brand .logo,
+.dark-theme .navbar-brand .logo,
+body.dark .navbar-brand .logo {
+  filter: invert(0.9) brightness(1.5) !important;
+}
+
+/* Navbar brand text styling */
+.navbar-brand span {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 700;
+  color: #2c3e50 !important;
+  font-size: 1.35rem;
+  margin-left: 10px;
+  vertical-align: middle;
+  display: inline-block;
+  letter-spacing: 0.5px;
+}
+
+/* Text color for dark mode */
+[data-bs-theme="dark"] .navbar-brand span,
+.dark-theme .navbar-brand span,
+body.dark .navbar-brand span {
+  color: #ecf0f1 !important;
+}
+
+
+
